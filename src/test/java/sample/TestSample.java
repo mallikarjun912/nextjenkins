@@ -21,4 +21,5 @@ public class TestSample {
 		logger.info("** testAdd() executed once.."); 
 		assertEquals("added", service.add("java"));  
 	}
+	
 }
