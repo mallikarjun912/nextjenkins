@@ -17,7 +17,7 @@ public class TestSample {
 	SampleService service = new SampleService();
 	
 	@Test
-	public void testAdd() {
+	public testAdd() {
 		logger.info("** testAdd() executed once.."); 
 		assertEquals("added", service.add("java"));  
 	}
