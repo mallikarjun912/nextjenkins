@@ -11,6 +11,7 @@ public class JenkinsMain {
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsMain.class, args);
 		logger.info("** first commit **");  
-	}
+		System.out.println("** Second commit **");   
+ 	}
 
 }
